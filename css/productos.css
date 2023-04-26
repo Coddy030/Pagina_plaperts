@@ -1,0 +1,53 @@
+
+/*--------------------------------------------------------------
+# Servicios
+--------------------------------------------------------------*/
+
+.service-wrapper .service-footer {
+    max-width: 720px;
+  }
+  .service-work.card {
+    border-radius: 10px !important;
+    cursor: pointer;
+  }
+ 
+  .service-work .service-work-vertical:hover {
+    background-position: 0% 0%;
+    transition: .5s;
+  }
+  .service-work .service-work-vertical:hover * {
+    color: #000;
+    border-color: #000;
+    transition: .5s;
+  }
+  .recent-work.card{
+    border-radius: 10px !important;
+  }
+  .recent-work .recent-work-vertical {
+      background: rgba(126, 125, 125, 0.438);
+    background: linear-gradient(0deg, rgba(223, 26, 26, 0.315) 0%, rgba(255,255,255,0) 33.333%, rgba(214, 58, 10, 0.404) 66.666%, rgba(255,255,255,0) 99.999%);
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .recent-work .recent-work-vertical:hover {
+    background-position: 0% 0%;
+    transition: .5s;
+  }
+  .recent-work .recent-work-vertical:hover div.recent-work-content {
+    top: 50%;
+    margin-top: -2.5em;
+    position: absolute;
+  }
+  .recent-work .recent-work-vertical:hover * {
+    color: white;
+    transition: .5s;
+  }
+  
+  
+  /*--------------------------------------------------------------
+  # fin servicios
+  --------------------------------------------------------------*/
+
+     
